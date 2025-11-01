@@ -1,7 +1,7 @@
 # Core LLM & RAG Frameworks
 langchain>=0.2.12
 langchain-community>=0.2.10
-langchain-core==1.0.2
+langchain-core>=1.0.2
 faiss-cpu>=1.8.0
 openai>=1.12.0
 langchain-openai
@@ -25,10 +25,9 @@ tqdm>=4.66.0
 # API Integration
 requests>=2.32.0
 
-# Google Generative AI (Compatible versions)
-langchain-google-genai==3.0.0
-google-generativeai==0.8.5
-google-ai-generativelanguage==0.6.15
+# Google Generative AI (Fixed compatible versions)
+langchain-google-genai>=2.0.0
+google-generativeai>=0.8.0
 
 # For ZIP handling and generic IO
 python-magic-bin>=0.4.14; platform_system == "Windows"
