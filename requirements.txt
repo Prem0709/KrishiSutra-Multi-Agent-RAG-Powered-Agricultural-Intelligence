@@ -25,9 +25,10 @@ tqdm>=4.66.0
 # API Integration
 requests>=2.32.0
 
-# Google Generative AI - Fixed compatible versions
-google-generativeai==0.8.5
-google-ai-generativelanguage==0.6.15
+# Google Generative AI - NOW WITH langchain_google_genai!
+langchain-google-genai==2.0.0
+google-generativeai==0.7.2
+google-ai-generativelanguage==0.6.6
 
 # For ZIP handling and generic IO
 python-magic-bin>=0.4.14; platform_system == "Windows"
