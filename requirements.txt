@@ -1,4 +1,3 @@
-# Requirements optimized for Streamlit deployment with accordion support
 # Core LLM & RAG Frameworks
 langchain>=0.2.12
 langchain-community>=0.2.10
@@ -8,9 +7,8 @@ openai>=1.12.0
 langchain-openai
 tiktoken
 
-# Streamlit UI with deployment optimizations
+# Streamlit UI
 streamlit>=1.36.0
-streamlit-accordion>=0.1.0
 
 # Data Handling & Formats
 pandas>=2.2.0
@@ -33,9 +31,10 @@ google-generativeai==0.8.5
 google-ai-generativelanguage==0.6.15
 
 # For ZIP handling and generic IO
-python-magic>=0.4.27
+python-magic-bin>=0.4.14; platform_system == "Windows"
+python-magic>=0.4.27; platform_system != "Windows"
 
-# Lightweight visualization (better for deployment)
+# Lightweight visualization
 matplotlib>=3.9.0
 
 # HuggingFace (for offline embedding models)
