@@ -9,8 +9,6 @@ sdk_version: 4.44.0
 app_file: app.py
 pinned: false
 license: mit
----
-
 
 ### Empowering Smart Agriculture using Multi-Agent RAG and Google Gemini
 
