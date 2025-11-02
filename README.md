@@ -1,5 +1,4 @@
 # 🌾 Project KrishiSutra-Multi-Agent-RAG-Powered-Agricultural-Intelligence
-
 ---
 title: KrishiSutra AI Powered Agricultural Intelligence
 emoji: 🌾
@@ -11,6 +10,8 @@ app_file: app.py
 pinned: false
 license: mit
 ---
+
+# 🌾 Project Samarth — AI Q&A Assistant (Gemini Powered)
 
 ### Empowering Smart Agriculture using Multi-Agent RAG and Google Gemini
 
