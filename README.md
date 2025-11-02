@@ -1,4 +1,3 @@
-# 🌾 Project KrishiSutra-Multi-Agent-RAG-Powered-Agricultural-Intelligence
 ---
 title: KrishiSutra AI Powered Agricultural Intelligence
 emoji: 🌾
